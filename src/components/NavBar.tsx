@@ -6,6 +6,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
+import { Input } from "./ui/input";
 
 export const Navbar = () => {
     return (
@@ -14,7 +15,7 @@ export const Navbar = () => {
             style={{
                 height: `${NAVBAR_HEIGHT}px`
             }}
-        >
+        >   
         </div>
     )
 }
