@@ -4,16 +4,11 @@ import { CirclePlus, Sidebar } from "lucide-react";
 import Image from "next/image";
 import {Navbar} from "@/components/Navbar"
 import { defaultConfig } from "next/dist/server/config-shared";
+import Index from "./(dashboard)/page";
 
+// dashboard
 
 export default function Home(){
-  return (
-    <div className="w-full h-full">
-      <Navbar/>
-      <main className="h-full flex w-full flex-col">
-
-      </main>
-    </div>
-  )
+  return <Index/>
 }
 
