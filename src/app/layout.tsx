@@ -6,6 +6,7 @@ import { DashboardLayout } from "./(dashboard)/layout";
 
 import { Sidebar } from "@/components/layout/SideBar";
 import { Header } from "@/components/layout/Header";
+import { SidebarProvider } from "@/lib/context/SidebarProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,9 +35,12 @@ export default function RootLayout({
       >
         <AuthProvider>
           <div className="min-h-screen bg-gray-50">
-            <Sidebar />
+            <SidebarProvider>
+              <Sidebar />
             <Header />
             <main className="ml-64 mt-16 p-8">{children}</main>
+            </SidebarProvider>
+            
           </div>
         </AuthProvider>
         
