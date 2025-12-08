@@ -2,8 +2,9 @@
 
 import { Badge } from "@/components/ui/badge"
 
-const clients = [
+export const clients = [
     {
+        id: "1",
         first: "John",
         last: "Wilson",
         email: "john.wilson@email.com",
@@ -11,6 +12,7 @@ const clients = [
         status: "Active"
     },
     {
+        id: "2",
         first: "Sarah",
         last: "Martinez",
         email: "sarah.martinez@email.com",
@@ -18,6 +20,7 @@ const clients = [
         status: "Active"
     },
     {
+        id: "3",
         first: "Michael",
         last: "Chen",
         email: "michael.chen@email.com",
@@ -25,6 +28,7 @@ const clients = [
         status: "Active"
     },
     {
+        id: "4",
         first: "Lisa",
         last: "Anderson",
         email: "lisa.anderson@email.com",
@@ -32,6 +36,7 @@ const clients = [
         status: "Lead"
     },
     {
+        id: "5",
         first: "David",
         last: "Thompson",
         email: "david.thompson@email.com",
@@ -39,6 +44,7 @@ const clients = [
         status: "Active"
     },
     {
+        id: "6",
         first: "Emma",
         last: "Johnson",
         email: "emma.johnson@email.com",
